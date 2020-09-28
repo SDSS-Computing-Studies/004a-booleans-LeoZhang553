@@ -15,3 +15,19 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+
+a=input('input a: ')
+b=input('input b: ')
+c=input('input c: ')
+a=float(a)
+b=float(b)
+c=float(c)
+import math
+d = b**2 - 4*a*c
+if d >=0:
+    if math.sqrt(d) == int(math.sqrt(d)):
+        print('the equation can be factored')
+    else:
+        print('the equation can not be factored')
+else:
+    print('no solution')

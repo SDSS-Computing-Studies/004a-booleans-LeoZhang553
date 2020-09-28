@@ -10,3 +10,12 @@
 # - "positive"
 # - "negative"
 # - "zero"
+
+N=input("number=")
+N=int(N)
+if N > 0:
+    print('positive')
+if N == 0:
+    print('zero')
+if N < 0:
+    print('negative')
