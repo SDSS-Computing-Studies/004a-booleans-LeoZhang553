@@ -27,4 +27,4 @@ elif N >= 100:
 elif N >= 10:
     print('The number is 10 or a number up to 100')
 else:
-    print('The number is 0 or a number up to 100')
+    print('The number is 0 or a number up to 10')
