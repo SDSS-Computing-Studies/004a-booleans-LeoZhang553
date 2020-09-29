@@ -19,9 +19,9 @@ L3=input('enter line 3: ')
 L1=float(L1)
 L2=float(L2)
 L3=float(L3)
-a=L1**2
-b=L2**2
-c=L3**2
+a=L2**2
+b=L3**2
+c=L1**2
 if a+b >= c*0.98 and a+b <= c*1.02:
     print('that is a right triangle')
 elif a+b > c*1.02:
