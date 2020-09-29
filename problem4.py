@@ -22,8 +22,9 @@ L3=float(L3)
 a=L1**2
 b=L2**2
 c=L3**2
-if a+b >= c*0.98 and a+b <= c*1.02:
-    print('that is a right triangle')
+if a+b >= c*0.98:
+    if a+b <= c*1.02:
+        print('that is a right triangle')
 elif a+b > c*1.02:
     print('that is an acute triangle')
 elif a+b < c*0.98:
