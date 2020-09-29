@@ -12,7 +12,7 @@
 # - "zero"
 
 N=input("number=")
-N=int(N)
+N=float(N)
 if N > 0:
     print('positive')
 if N == 0:
