@@ -8,9 +8,9 @@
 # 1 marks
 
 N=input('enter a user name: ')
-if N == 'admin':
+if 'admin' in N:
     P=input('enter password: ')
-    if P == "12345password":
+    if "12345password" in P:
         print('Access granted')
     else:
         print('invalid password')
